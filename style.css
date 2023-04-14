@@ -20,7 +20,7 @@
   }
 
   .logo img{
-    max-width: 90px;
+    max-width: 100px;
     height: auto;
   }
   .navmenu{
@@ -172,4 +172,16 @@ header.sticky{
   background-color: #27b737;
   padding: 3px 10px;
   border-radius: 2px;
+}
+.heart-icon{
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+}
+.heart-icon:hover{
+  color: #EE1C47;
+}
+.ratting i{
+  color: #ff8c00;
+  font-size: 18px;
 }
