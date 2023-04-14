@@ -20,7 +20,7 @@
   }
 
   .logo img{
-    max-width: 100px;
+    max-width: 90px;
     height: auto;
   }
   .navmenu{
@@ -139,7 +139,22 @@ header.sticky{
   font-size: 20px;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 30px;
 }
 .centre-text span{
   color: #ee1c47;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px, auto));
+  gap: 2rem;
+}
+.row{
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  width: 100%;
+  height: auto;
+  transition: all .40s;
 }
